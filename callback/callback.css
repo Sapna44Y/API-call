@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(0.25turn, #5ca8c9, #ffff98, #df9fe6);
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#fetch-button {
+  background-color: #ea62a1;
+  padding: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#post-list {
+  margin: 20px;
+  background-color: rgb(245, 195, 179);
+}
